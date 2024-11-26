@@ -1,0 +1,22 @@
+#dice
+{
+    display: block;
+    font-size: 5em;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:hsla(0, 100%, 50%, 0.63)
+}
+#roll
+{
+    display: block;
+    margin: auto;
+    font-size: 2em;
+    background-color: hsla(271, 78%, 67%, 0.747);
+    color: white;
+    transform: background-color 0.95s;
+    border-radius: 10px;
+}
+#roll:hover
+{
+    background-color: hsl(271, 78%, 67%);
+}

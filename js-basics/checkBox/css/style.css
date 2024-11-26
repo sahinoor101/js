@@ -1,0 +1,33 @@
+body{
+    background: linear-gradient(75deg,grey,white);
+}
+h1{
+    text-align: center;
+    color: rgb(18, 58, 94);
+    padding: 25px;
+    margin: 15px;
+}
+label
+{
+    padding: 10px;
+    margin: 15px;
+    font-size: 2em;
+}
+input
+{
+    padding: 10px;
+}
+#submit
+{
+    display: block;
+    padding: 15px;
+    background-color: burlywood;
+    color: azure;
+    border-radius: 15px;
+    font-size: 1.5em;
+    margin: auto;
+}
+p{
+    color: black;
+}
+

@@ -1,0 +1,38 @@
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#label
+{
+    font-size: 2em;
+    display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(132, 0, 255) ;
+
+}
+#age
+{
+    display: block;
+    padding: 12px;
+    color: aliceblue;
+    background-color: hsla(204, 74%, 51%, 0.863);
+    margin-top: 10px;
+    border-radius: 5px;
+}
+#btn
+{
+    display: block;
+    padding: 10px;
+    margin-top: 10px;
+    border: solid hsla(204, 74%, 51%, 0.863);
+    background-color: hsla(204, 74%, 51%, 0.23);
+    border-radius: 15px;
+}
+#print
+{
+    display: block;
+    font-size: 2em;
+    color: rgb(123, 44, 202);
+}

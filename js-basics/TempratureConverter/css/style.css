@@ -1,0 +1,48 @@
+body{
+    background-color: hsl(0, 0%, 81%);
+}
+form{
+    background-color: white;
+    text-align: center;
+    padding: 25px;
+    margin: auto;
+    max-width: 400px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 15px hsl(0, 0%, 0% ,0.35);
+}
+h1{
+    color:rgba(78, 78, 78, 0.884);
+}
+
+input{
+    text-align: center;
+    border: 2px solid hsla(0, 0%, 0%, 0.822);
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: hsla(240, 50%, 77%, 0.695);
+    transition: background-color 0.25s;
+    border-radius: 15px;
+    color: rgb(91, 64, 209);
+    font-size: 1.5em;
+}
+label{
+    font-size: 1.em;
+}
+input:hover{
+    background-color: hsla(241, 50%, 77%, 0.995);
+}
+#btn{
+    margin: 15px;
+    font-size: 1.5em;
+    padding: 10px;
+    color: whitesmoke;
+    border-radius: 15px;
+    border: none;
+    background-color: hsla(0, 100%, 50%, 0.822);
+    cursor: pointer;
+}
+p{
+    color: grey;
+    font-size: 1.7em;
+    font-weight: bolder;
+}

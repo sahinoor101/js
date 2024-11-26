@@ -1,0 +1,26 @@
+#count{
+    display: block;
+    text-align: center;
+    font-size: 10em;
+    font-family:  Helvetica, sans-serif;
+    color: rgb(0, 126, 230);
+}
+
+#btn-container{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-evenly;
+}
+.btn
+{
+    background-color: hsl(226, 76%, 64%);
+    color: white;
+    font-size: 3em;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+ .btn:hover
+ {
+    background-color: hsl(226, 100%, 50%);
+ }
