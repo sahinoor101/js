@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BUTTON TIMEOUT</title>
+  </head>
+  <body>
+    <button onclick="clicked()">Click here!to start timer</button>
+    <button onclick="stop()">Stop timer</button>
+    <script>
+        let timeout ;
+      function clicked() {
+        timeout = setTimeout(() => window.alert("hello! Ayo wassup ?"), 3000);
+      }
+      function stop(){
+        clearTimeout(timeout);
+      }
+    </script>
+  </body>
+</html>
