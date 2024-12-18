@@ -2,6 +2,16 @@ const box = document.getElementById("box");
 let x = 0;
 let y = 0;
 
+
+document.addEventListener("keydown" , event=>{
+  box.style.backgroundColor = "tomato";
+  box.textContent = "🙂";
+})
+document.addEventListener("keyup" , event =>{
+  box.style.backgroundColor = "lightblue";
+  box.textContent = "🙃";
+
+})
 document.addEventListener("keydown", (event) => {
   if (event.key.startsWith("Arrow")) {
     switch (event.key) {
